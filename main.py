@@ -16,7 +16,7 @@ class Answer(BaseModel):
     tools_used: list[str]
     
 
-llm = ChatAnthropic(model="claude-3-5-sonnet-20241022")
+llm = ChatAnthropic(model="claude-sonnet-4-5-20250929")
 parser = PydanticOutputParser(pydantic_object=Answer)
 
 prompt = ChatPromptTemplate.from_messages(
