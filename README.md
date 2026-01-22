@@ -23,7 +23,7 @@ The application uses **Anthropic’s Claude** via **LangChain** to answer academ
 
 - **Python** – core application logic
 - **LangChain** – agent framework
-- **Anthropic Claude 3.5 Sonnet** – large language model
+- **Anthropic Claude Sonnet 4.5** – large language model
 - **Pydantic** – structured output validation
 - **DuckDuckGo Search** – web search
 - **Wikipedia API** – factual lookups
